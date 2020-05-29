@@ -2,7 +2,7 @@
 A boilerplate for MJML to make developing email templates a breeze.
 
 
-## Getting started
+## 🏁 Getting started
 
 - Clone this repo `git clone git@github.com:daphnesmit/mjml-email-boilerplate.git`
 
@@ -15,7 +15,7 @@ This will run the MJML watch command and outputs your files in the /dist folder.
 A simple live-server with hot reloading will be spinned up for the ease of development.
 
 
-## 🏁 Production build
+## 📦 Production build
 
 ### Production build for Javascript
 To output your HTML email templates in a Javascript bundle you first need to make sure they are all required in `index.ts`. (see below: how to use)
