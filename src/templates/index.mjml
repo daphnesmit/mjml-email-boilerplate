@@ -1,4 +1,14 @@
 <mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="black" color="#000000" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .orange-text a {
+        color: #fa8739 !important;
+      }
+    </mj-style>
+  </mj-head>
   <mj-body background-color="#d6dde5">
     <mj-section background-color="#ffffff">
       <mj-column width="50%">
@@ -6,9 +16,9 @@
       </mj-column>
       <mj-column width="50%">
         <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#fa8739">
-          <mj-navbar-link href="https://mjml.io" color="#000000">home</mj-navbar-link>
-          <mj-navbar-link href="https://mjml.io" color="#000000">blog</mj-navbar-link>
-          <mj-navbar-link href="https://mjml.io" color="#000000">store</mj-navbar-link>
+          <mj-navbar-link href="https://mjml.io" mj-class="black">home</mj-navbar-link>
+          <mj-navbar-link href="https://mjml.io" mj-class="black">blog</mj-navbar-link>
+          <mj-navbar-link href="https://mjml.io" mj-class="black">store</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
@@ -20,7 +30,7 @@
           <p>OFFER</p>
           <p style="font-size: 13px">Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /></p>
         </mj-text>
-        <mj-button background-color="#fff" color="#fa8739" font-size="16px" align="center" padding="15px 30px" border-radius="3px" href="https://mjml.io" padding-left="25px" padding-right="25px" padding-bottom="10px">SHOP NOW</mj-button>
+        <mj-button background-color="#fff" css-class="orange-text" font-size="16px" align="center" padding="15px 30px" border-radius="3px" href="https://mjml.io" padding-left="25px" padding-right="25px" padding-bottom="10px">SHOP NOW</mj-button>
       </mj-column>
       <mj-column width="400px">
         <mj-image src="http://191n.mj.am/img/191n/3s/xjg.jpg" alt="Clothes set" align="center" border="none" width="400px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
