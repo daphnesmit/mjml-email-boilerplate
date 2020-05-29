@@ -1,9 +1,14 @@
 # MJML Email Boilerplate
 A boilerplate for MJML to make developing email templates a breeze.
 
+
+## Getting started
+
+- Clone this repo `git clone git@github.com:daphnesmit/mjml-email-boilerplate.git`
+
 ## 🧘‍♀️ Development server
 
-- Create a `/dist` folder in the root. (sadly otherwise mjml will compile your ile to dist.html...)
+- Make sure there is a `/dist` folder in the root. (sadly otherwise mjml will compile your file to a dist file without extension...)
 - Run `yarn dev` from the root directory
 
 This will run the MJML watch command and outputs your files in the /dist folder.
