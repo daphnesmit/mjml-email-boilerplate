@@ -1,0 +1,29 @@
+{
+  "name": "mjml-email-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for MJML to make developing email templates a breeze",
+  "private": true,
+  "main": "dist/bundle.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build:js": "webpack",
+    "dev": "concurrently 'yarn watch' 'yarn server'",
+    "watch": "mjml -w ./src/templates/*.mjml -o ./dist --config.beautify",
+    "build": "mjml ./src/templates/*.mjml -o ./dist --config.minify",
+    "server": "npx live-server ./dist"
+  },
+  "files": [
+    "src/**"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mjml": "^4.6.3",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-mjml-loader": "^1.1.0"
+  }
+}
