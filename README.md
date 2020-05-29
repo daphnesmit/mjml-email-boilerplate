@@ -53,14 +53,12 @@ export default {
 
 __Use a template__
 
-Require the templates from the email folder.  Import path may differ depending on your implementation and where you put the emails folder.
-
-If your using yarn workspaces for example it can be done as follows:
+In your project require the templates from the email folder.  Import path may differ depending on your implementation and where you put the emails folder.
 
 ```typescript
 import { index, login, forgotPassword } from '@mjml-email-boilerplate'
 
-sendEmail(login, { /* my options */ })
+customSendEmailFunction(login, { /* my options */ })
 ```
 
 Good luck and Happy coding 🤓!
